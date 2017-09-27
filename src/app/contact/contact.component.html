@@ -1,0 +1,18 @@
+<div>
+  <div style="float: left;">
+    <h4><strong>Nome: </strong>{{contact.name}}</h4>
+  </div>
+  <br>
+  <div style="float: right;">
+    <a class="icon float-right" (click)="removeContact()" data-toggle="tooltip" title="Remove Contact">
+      <i class="fa fa-close fa-2x" aria-hidden="true"></i>
+    </a>
+    <a class="icon float-right" (click)="editContact()" data-toggle="tooltip" title="Editar Contacto">
+      <i class="fa fa-cog fa-2x"></i>
+    </a>
+  </div>
+  <br>
+  <div style="float: left;">
+    <strong>Telefone:</strong>{{contact.phone}}
+  </div>
+</div>
